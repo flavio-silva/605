@@ -1,0 +1,166 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+
+body{
+	background-color: #dddddd;
+}
+
+main#website{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#topo h2{
+	margin: 0;
+}
+
+.menu ul{
+	margin: 0;
+	padding: 10px 0;
+	text-align: center;
+	list-style-position: inside;
+}
+
+.menu li{
+	display: inline;
+	margin: 0 10px;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.menu li a:hover{
+	color: #5d5d5d;
+	text-decoration: underline;
+}
+
+.menu li a:active{
+	color: #ff0000;
+}
+
+div.sobre-mim{
+	overflow: hidden;
+}
+
+div.sobre-mim img{
+	float: left;
+	margin: 0 15px 15px 0;
+}
+
+div.sobre-mim p{
+	text-align: justify;
+}
+
+div.sobre-mim a{
+	color: #2964BD;
+	text-decoration: none;
+}
+
+div.sobre-mim a:hover{
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+div.sobre-mim h1, div.sobre-mim h2, div.sobre-mim h3,
+div.sobre-mim h4, div.sobre-mim h5, div.sobre-mim h6{
+	text-align: center;
+}
+
+div.sobre-mim ul{
+	list-style-position: inside;
+	padding: 0;
+}
+
+table#lista_hobbies{
+	width: 600px;
+	margin: 0 auto;
+	border: 1px solid #000000;
+	padding: 5px;
+}
+
+table#lista_hobbies tbody tr{
+	color: #ffffff;
+}
+
+table#lista_hobbies tbody tr:nth-child(odd){
+	background-color: #B1B1B1;
+}
+
+table#lista_hobbies tbody tr:nth-child(even){
+	background-color: #939393;
+}
+
+table#lista_hobbies tfoot tr{
+	text-align: center;
+}
+
+audio, video{
+	display: block;
+	margin: 15px auto;
+	width: 350px;
+}
+
+form#form_contato{
+	margin: 0 auto;
+	width: 500px;
+}
+
+form#form_contato legend{
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 10px 0;
+}
+
+form#form_contato fieldset{
+	border: 1px solid #000;
+}
+
+form#form_contato label{
+    width: 95px;
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+}
+
+form#form_contato label.label_contatado{
+	width: 100%;
+	text-align: left;
+}
+
+.btn{
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	border: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.btn_envia{
+	background-color: #00712D;
+}
+
+.btn_envia:hover{
+	background-color: #04421D;
+}
+
+.btn_apaga{
+	background-color: #FE1200;
+}
+
+.btn_apaga:hover{
+	background-color: #BC170B;
+}
+
+footer#rodape{
+	text-align: center;
+}

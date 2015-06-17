@@ -1,0 +1,227 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+}
+
+body{
+	background: #e8cff7;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U4Y2ZmNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiN2QxZTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #e8cff7 0%, #b7d1e5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e8cff7), color-stop(100%,#b7d1e5));
+	background: -webkit-linear-gradient(top,  #e8cff7 0%,#b7d1e5 100%);
+	background: -o-linear-gradient(top,  #e8cff7 0%,#b7d1e5 100%);
+	background: -ms-linear-gradient(top,  #e8cff7 0%,#b7d1e5 100%);
+	background: linear-gradient(to bottom,  #e8cff7 0%,#b7d1e5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8cff7', endColorstr='#b7d1e5',GradientType=0 );
+}
+
+main#website{
+	width: 1000px;
+	margin: 0 auto;
+	min-height: 100%;
+	position: relative;
+}
+
+* html main#website{
+	height: 100%;
+}
+
+#topo h1{
+	margin: 0;
+	padding: 15px 0;
+}
+
+#topo h2{
+	margin: 0;
+}
+
+.menu ul{
+	margin: 0;
+	padding: 10px 0;
+	text-align: center;
+	list-style-position: inside;
+}
+
+.menu li{
+	display: inline;
+	margin: 0 10px;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: #000000;
+	background: #B3B3B3;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 2px 5px;
+}
+
+.menu li a:hover{
+	color: #5d5d5d;
+	text-decoration: underline;
+	background: #CECECE;
+}
+
+.menu li a:active{
+	color: #ff0000;
+}
+
+div.sobre-mim{
+	overflow: hidden;
+}
+
+div.sobre-mim img{
+	float: left;
+	margin: 0 15px 15px 0;
+}
+
+div.sobre-mim p{
+	text-align: justify;
+}
+
+div.sobre-mim a{
+	color: #2964BD;
+	text-decoration: none;
+}
+
+div.sobre-mim a:hover{
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+div.sobre-mim h1, div.sobre-mim h2, div.sobre-mim h3,
+div.sobre-mim h4, div.sobre-mim h5, div.sobre-mim h6{
+	text-align: center;
+}
+
+div.sobre-mim ul{
+	list-style-position: inside;
+	padding: 0;
+}
+
+table#lista_hobbies{
+	width: 600px;
+	margin: 0 auto;
+	border: 1px solid #000000;
+	padding: 5px;
+}
+
+table#lista_hobbies tbody tr{
+	color: #ffffff;
+}
+
+table#lista_hobbies tbody tr:nth-child(odd){
+	background-color: #B1B1B1;
+}
+
+table#lista_hobbies tbody tr:nth-child(even){
+	background-color: #939393;
+}
+
+table#lista_hobbies tfoot tr{
+	text-align: center;
+}
+
+audio, video{
+	display: block;
+	margin: 15px auto;
+	width: 350px;
+}
+
+form#form_contato{
+	margin: 0 auto;
+	width: 500px;
+}
+
+form#form_contato legend{
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 10px 0;
+}
+
+form#form_contato fieldset{
+	border: 1px solid #000;
+}
+
+form#form_contato label{
+    width: 95px;
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+}
+
+form#form_contato label.label_contatado{
+	width: 100%;
+	text-align: left;
+}
+
+form#form_contato input, form#form_contato textarea, form#form_contato select{
+	width: 350px;
+}
+
+form#form_contato label.label_contatado input{
+	width: auto;
+}
+
+#msg_form{
+	font-size: 14px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+#msg_form.erro{
+	color: #ff0000;
+}
+
+#msg_form.sucesso{
+	color: #008000;
+}
+
+.btn{
+	width: 100px !important;
+	height: 30px;
+	text-align: center;
+	border: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	cursor: pointer;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.btn_envia{
+	background-color: #00712D;
+}
+
+.btn_envia:hover{
+	background-color: #04421D;
+}
+
+.btn_apaga{
+	background-color: #FE1200;
+}
+
+.btn_apaga:hover{
+	background-color: #BC170B;
+}
+
+footer#rodape{
+	text-align: center;
+	height: 80px;
+}
+
+footer#rodape p{
+	margin: 0;
+}

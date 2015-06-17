@@ -1,0 +1,22 @@
+#corpo{
+	overflow: hidden;
+}
+
+aside{
+	float: left;
+	width: 180px;
+}
+
+#menu_topo ul{
+	text-align: left;
+}
+
+#menu_topo li{
+	display: block;
+	 margin: 10px 0px;
+}
+
+section#conteudo{
+	float: right;
+	width: 820px;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="pt-BR">
+	<head>
+		<meta charset="utf-8" />
+		<title> Minha Página Pessoal </title>
+
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/estilo.css" /> 
+
+		<script type="text/javascript" src="assets/plugins/jquery-1.11.2.js"></script>
+
+		<!--[if lt IE 9]>
+			<script type="text/javascript" src="plugins/html5.js"></script>
+			<script type="text/javascript" src="plugins/selectivizr.js"></script>
+		<![endif]-->
+		<script type="text/javascript" src="assets/js/script.js"></script>
+	</head>
+	<body>
+		<!-- Início Conteúdo Site -->
+		<main id="website">
+			<!-- Início Topo Site -->
+			<header id="topo">
+				<h1 align="center">Mariana Lino</h1>
+				<h2 align="center"> Saiba mais sobre meu trabalho </h2>
+				<!-- Início Menu Topo -->
+				<nav id="menu_topo" class="menu">
+					<ul>
+						<li><a href="index.html">Início</a></li>
+						<li><a href="quem_sou.html">Quem Sou</a></li>
+						<li><a href="meus_trabalhos.html">Meus Trabalhos</a></li>
+						<li><a href="meus_hobbies.html">Meus Hobbies</a></li>
+						<li><a href="minhas_fotos.html">Minhas Fotos</a></li>
+						<li><a href="audios_videos.html">Áudios e Vídeos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+				<!-- Fim Menu Topo -->
+			</header>
+			<!-- Fim Topo Site -->
+
+			<!-- Início Corpo do Site -->
+			<div id="corpo">
+				<section id="conteudo">
+					<!-- Início Formulário de Contato -->
+					<form id="form_contato" method="post" action="" onsubmit="return valida();">
+						<legend>Contate-me</legend>
+						<div id="msg_form"></div>
+						<fieldset>
+							<!-- Início Campo Nome -->
+							<label for="nome">Nome:</label>
+							<input type="text" name="nome" id="nome" placeholder="Digite seu nome" onkeyup="caracteresMaiusculos('nome')" />
+							<!-- Fim Campo Nome -->
+
+							<br/>
+
+							<!-- Início Campo E-Mail -->
+							<label for="email">Email:</label>
+							<input type="email" name="email" id="email" placeholder="Digite seu email" onkeyup="caracteresMaiusculos('email')" />
+							<!-- Fim Campo E-Mail -->
+							
+							<br/>
+							
+							<!-- Início Campo Telefone -->
+							<label for="telefone">Telefone:</label>
+							<input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone" maxlength="15" />
+							<!-- Fim Campo Telefone -->
+							
+							<br/>
+
+							<!-- Início Campo Assunto -->
+							<label for="assunto">Assunto:</label>
+							<select name="assunto" id="assunto">
+								<option>Selecione --</option>
+								<option>Elogios</option>
+								<option>Reclamações</option>
+								<option>Outros</option>
+							</select>
+							<!-- Fim Campo Assunto -->
+							
+							<br/>
+
+							<!-- Início Campo Mensagem -->
+							<label for="mensagem">Mensagem:</label>
+							<textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem" onkeyup="caracteresMaiusculos('mensagem')"></textarea>
+							<!-- Fim Campo Mensagem -->
+
+							<br/><br/>
+
+							<!-- Início Campo Contatado -->
+							<label class="label_contatado">
+								<input type="checkbox" name="contatado" /> 
+								Desejo ser contatado por telefone
+							</label>
+							<!-- Fim Campo Contatado -->
+							<br/><br/>
+
+							<!-- Início Botões Formulário -->
+							<input type="submit" value="Enviar" class="btn btn_envia" />
+							<input type="reset" value="Apagar" class="btn btn_apaga" onclick="enviaMsg('Formulário Apagado!')" />
+							<!-- Fim Botões Formulário -->
+						</fieldset>
+					</form>
+					<!-- Fim Formulário de Contato -->
+				</section>
+			</div>
+			<!-- Fim Corpo do Site -->
+
+			<!-- Início Rodapé -->
+			<footer id="rodape">
+				<!-- Início Menu Rodapé -->
+				<nav id="menu_rodape" class="menu">
+					<ul>
+						<li><a href="index.html">Início</a></li>
+						<li><a href="quem_sou.html">Quem Sou</a></li>
+						<li><a href="meus_trabalhos.html">Meus Trabalhos</a></li>
+						<li><a href="meus_hobbies.html">Meus Hobbies</a></li>
+						<li><a href="minhas_fotos.html">Minhas Fotos</a></li>
+						<li><a href="audios_videos.html">Áudios e Vídeos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+				<!-- Fim Menu Rodapé -->
+				<p>2015.Mariana Lino – Todos os direitos reservados.</p>
+			</footer>
+			<!-- Fim Rodapé -->
+		</main>
+		<!-- Fim Conteúdo Site -->
+	</body>
+</html>
